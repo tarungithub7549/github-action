@@ -9,4 +9,5 @@ jobs:         // set of jobs
     steps:      // steps to run job 1
       - name: Print message
         run: echo "Hello , GitHub Actions!"
+      - name: print my name
         run: echo "Tarun , GitHub Actions!"
