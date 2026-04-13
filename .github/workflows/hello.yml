@@ -1,13 +1,14 @@
-name: My first workflow     // name of workflow 
+name: My first workflow   
 
-on: push   // event
+on: push   
 
-jobs:         // set of jobs
-  say-hello:   // job 1
+jobs:         
+  say-hello:   
     runs-on: ubuntu-lates
 
-    steps:      // steps to run job 1
+    steps:      
       - name: Print message
         run: echo "Hello , GitHub Actions!"
-      - name: print my name
+
+      - name: Print my name
         run: echo "Tarun , GitHub Actions!"
